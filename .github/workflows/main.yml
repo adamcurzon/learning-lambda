@@ -11,6 +11,8 @@ jobs:
       matrix:
         node-version: [12.x]
     runs-on: ubuntu-latest
+    environment: 
+      name: lambda
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
