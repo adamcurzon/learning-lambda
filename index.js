@@ -3,6 +3,7 @@ export const handler = async (event) => {
   let adam = {
     firstname: "Adam",
     lastname: "Curzon",
+    message: "Hello from github actions"
   };
   const response = {
     statusCode: 200,
