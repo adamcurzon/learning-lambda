@@ -10,7 +10,27 @@ export const handler = async (event) => {
     headers: {
       "Content-Type": "text/html"
     },
-    body: `<h1>Lambda Test 🧪</h1>`
+    body: 
+    `<html>
+    <head>
+      <title>Lambda Test</title>
+    </head>
+      <style>
+        h1 {
+          font-family: sans-serif;
+          display: block;
+          width: 300px;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          margin: 50px auto;
+          background: #DDD;
+        }
+      </style>
+      <body>
+        <h1>Lambda Test 🧪</h1>
+      </body>
+    </html>`
   };
   return response;
 };
