@@ -8,4 +8,4 @@ app.get("/", (res, req) => {
 });
 app.use(routes);
 
-modules.export = app;
+module.export = app;
