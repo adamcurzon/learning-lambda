@@ -5,8 +5,13 @@ const app = express();
 const routes = express.Router();
 
 app.get("/", (res, req) => {
-  res.body("123");
+  res.send("Home Page");
 });
+
+app.get("/test", (res, req) => {
+  res.send("Test Page");
+});
+
 app.use(routes);
 
 // Lambda Handler
