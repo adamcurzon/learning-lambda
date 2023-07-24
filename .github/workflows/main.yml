@@ -1,4 +1,8 @@
-name: deploy to lambda
+permissions:
+  id-token: write
+  contents: read
+
+name: deploy to lambda  
 on: [push]
 jobs:
   deploy_source:
