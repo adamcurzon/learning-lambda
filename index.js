@@ -4,11 +4,11 @@ const app = express();
 
 const routes = express.Router();
 
-app.get("/", (res, req) => {
+app.get("/", (req, res) => {
   res.send("Home Page");
 });
 
-app.get("/test", (res, req) => {
+app.get("/test", (req, res) => {
   res.send("Test Page");
 });
 
