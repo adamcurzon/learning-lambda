@@ -7,7 +7,7 @@ export const handler = async (event) => {
   };
   const response = {
     statusCode: 200,
-    body: JSON.stringify(adam),
+    body: `<h1>Lambda Test 🧪</h1>`
   };
   return response;
 };
