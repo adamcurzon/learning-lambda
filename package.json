@@ -1,0 +1,19 @@
+{
+  "name": "learning-lambda",
+  "version": "1.0.0",
+  "description": "An api for learning lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamcurzon/learning-lambda.git"
+  },
+  "author": "Adam Curzon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamcurzon/learning-lambda/issues"
+  },
+  "homepage": "https://github.com/adamcurzon/learning-lambda#readme"
+}
