@@ -28,7 +28,7 @@ jobs:
         run: |
           npm ci
           npm run build --if-present
-          zip -j deploy.zip .
+          zip -j deploy.zip index.mjs
           aws lambda update-function-code --function-name testAdamCurzon --zip-file fileb://deploy.zip
         env:
           CI: true
