@@ -8,6 +8,12 @@ This repo documents my stages of learning how to use & deploy to AWS lambda with
 3. ⚠️ Do something cool? 😎
 4. ✅ Deploy it from this repo to lambda
 
+## 🔗 Routes
+
+`GET /` - Home page
+
+`GET /test` - Test page
+
 ## Tutorials Followed 📚
 
 ➡️ [Github Actions](https://blog.jakoblind.no/aws-lambda-github-actions/)
