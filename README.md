@@ -19,3 +19,5 @@ This repo documents my stages of learning how to use & deploy to AWS lambda with
 ➡️ [Github Actions](https://blog.jakoblind.no/aws-lambda-github-actions/)
 
 🔐 [AWS Credentials Guide](https://github.com/aws-actions/configure-aws-credentials)
+
+🖥️ [Express/Serverless](https://www.youtube.com/watch?v=lm7fn72eA8c) - [Vendia](https://github.com/vendia/serverless-express)
